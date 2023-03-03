@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Flights</string>
+    <string name="taichung">Taichung International Airport</string>
+    <string name="airport">Airport</string>
+    <string name="taoyuan">Taiwan Taoyuan International Airport</string>
+    <string name="songshan">Taipei Songshan Airport</string>
+    <string name="kaohsiung">Kaohsiung International Airport</string>
+</resources>

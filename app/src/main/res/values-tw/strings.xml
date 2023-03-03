@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Flights</string>
+    <string name="taoyuan">臺灣桃園國際機場</string>
+    <string name="songshan">臺北松山機場</string>
+    <string name="kaohsiung">高雄國際航空站</string>
+    <string name="taichung">臺中國際機場</string>
+    <string name="airport">機場</string>
+
+    <!-- Error messages -->
+    <string name="error_fragment_message">An error occurred</string>
+    <string name="dismiss_error">Dismiss</string>
+</resources>
