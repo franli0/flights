@@ -6,6 +6,26 @@
     <string name="taoyuan">臺灣桃園國際機場</string>
     <string name="songshan">臺北松山機場</string>
     <string name="kaohsiung">高雄國際航空站</string>
-    <string name="error_fragment_message">An error occurred</string>
-    <string name="dismiss_error">Dismiss</string>
+    <string name="search">搜尋</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="date">日期</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="fights_info">航班訊息</string>
+    <string name="monday">一</string>
+    <string name="tuesday">二</string>
+    <string name="wednesday">三</string>
+    <string name="thursday">四</string>
+    <string name="friday">五</string>
+    <string name="saturday">六</string>
+    <string name="sunday">日</string>
+    <string name="ad">抵達 / 出發</string>
+    <string name="flight_id">航班代號</string>
+    <string name="scheduled_time">表訂時間</string>
+    <string name="estimated_time">預計時間</string>
+    <string name="airline_company">航空公司</string>
+    <string name="gate">航廈</string>
+    <string name="flight_status">航班狀態</string>
+    <string name="to">目的地</string>
+    <string name="from">出發地</string>
+    <!-- TODO: Remove or change this placeholder text -->
 </resources>

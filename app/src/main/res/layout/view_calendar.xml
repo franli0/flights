@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/column"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/column_height"
+        android:background="@drawable/column"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonLeft"
+            android:layout_width="@dimen/column_width"
+            android:layout_height="match_parent"
+            android:background="@drawable/button"
+            android:gravity="center_vertical|start"
+            android:padding="5dp"
+            android:text="〈"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:text="2023 - 1"
+            android:textSize="@dimen/title_font_size" />
+
+        <Button
+            android:id="@+id/buttonRight"
+            android:layout_width="@dimen/column_width"
+            android:layout_height="match_parent"
+            android:background="@drawable/button"
+            android:gravity="center_vertical|end"
+            android:padding="5dp"
+            android:text="〉"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/column"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="@dimen/column_width"
+            android:layout_height="@dimen/column_height"
+            android:gravity="center"
+            android:text="@string/sunday"
+            android:textSize="@dimen/font_size" />
+
+        <TextView
+            android:layout_width="@dimen/column_width"
+            android:layout_height="@dimen/column_height"
+            android:gravity="center"
+            android:text="@string/monday"
+            android:textSize="@dimen/font_size" />
+
+        <TextView
+            android:layout_width="@dimen/column_width"
+            android:layout_height="@dimen/column_height"
+            android:gravity="center"
+            android:text="@string/tuesday"
+            android:textSize="@dimen/font_size" />
+
+        <TextView
+            android:layout_width="@dimen/column_width"
+            android:layout_height="@dimen/column_height"
+            android:gravity="center"
+            android:text="@string/wednesday"
+            android:textSize="@dimen/font_size" />
+
+        <TextView
+            android:layout_width="@dimen/column_width"
+            android:layout_height="@dimen/column_height"
+            android:gravity="center"
+            android:text="@string/thursday"
+            android:textSize="@dimen/font_size" />
+
+        <TextView
+            android:layout_width="@dimen/column_width"
+            android:layout_height="@dimen/column_height"
+            android:gravity="center"
+            android:text="@string/friday"
+            android:textSize="@dimen/font_size" />
+
+        <TextView
+            android:layout_width="@dimen/column_width"
+            android:layout_height="@dimen/column_height"
+            android:gravity="center"
+            android:text="@string/saturday"
+            android:textSize="@dimen/font_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutColumns"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/column"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.fengsui.flights.view.ColumnView
+                android:layout_width="@dimen/column_width"
+                android:layout_height="@dimen/column_height" />
+
+            <com.fengsui.flights.view.ColumnView
+                android:layout_width="@dimen/column_width"
+                android:layout_height="@dimen/column_height" />
+
+            <com.fengsui.flights.view.ColumnView
+                android:layout_width="@dimen/column_width"
+                android:layout_height="@dimen/column_height" />
+
+            <com.fengsui.flights.view.ColumnView
+                android:layout_width="@dimen/column_width"
+                android:layout_height="@dimen/column_height" />
+
+            <com.fengsui.flights.view.ColumnView
+                android:layout_width="@dimen/column_width"
+                android:layout_height="@dimen/column_height" />
+
+            <com.fengsui.flights.view.ColumnView
+                android:layout_width="@dimen/column_width"
+                android:layout_height="@dimen/column_height" />
+
+            <com.fengsui.flights.view.ColumnView
+                android:layout_width="@dimen/column_width"
+                android:layout_height="@dimen/column_height" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.fengsui.flights.view.ColumnView
+                android:layout_width="@dimen/column_width"
+                android:layout_height="@dimen/column_height" />
+
+            <com.fengsui.flights.view.ColumnView
+                android:layout_width="@dimen/column_width"
+                android:layout_height="@dimen/column_height" />
+
+            <com.fengsui.flights.view.ColumnView
+                android:layout_width="@dimen/column_width"
+                android:layout_height="@dimen/column_height" />
+
+            <com.fengsui.flights.view.ColumnView
+                android:layout_width="@dimen/column_width"
+                android:layout_height="@dimen/column_height" />
+
+            <com.fengsui.flights.view.ColumnView
+                android:layout_width="@dimen/column_width"
+                android:layout_height="@dimen/column_height" />
+
+            <com.fengsui.flights.view.ColumnView
+                android:layout_width="@dimen/column_width"
+                android:layout_height="@dimen/column_height" />
+
+            <com.fengsui.flights.view.ColumnView
+                android:layout_width="@dimen/column_width"
+                android:layout_height="@dimen/column_height" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.fengsui.flights.view.ColumnView
+                android:layout_width="@dimen/column_width"
+                android:layout_height="@dimen/column_height" />
+
+            <com.fengsui.flights.view.ColumnView
+                android:layout_width="@dimen/column_width"
+                android:layout_height="@dimen/column_height" />
+
+            <com.fengsui.flights.view.ColumnView
+                android:layout_width="@dimen/column_width"
+                android:layout_height="@dimen/column_height" />
+
+            <com.fengsui.flights.view.ColumnView
+                android:layout_width="@dimen/column_width"
+                android:layout_height="@dimen/column_height" />
+
+            <com.fengsui.flights.view.ColumnView
+                android:layout_width="@dimen/column_width"
+                android:layout_height="@dimen/column_height" />
+
+            <com.fengsui.flights.view.ColumnView
+                android:layout_width="@dimen/column_width"
+                android:layout_height="@dimen/column_height" />
+
+            <com.fengsui.flights.view.ColumnView
+                android:layout_width="@dimen/column_width"
+                android:layout_height="@dimen/column_height" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.fengsui.flights.view.ColumnView
+                android:layout_width="@dimen/column_width"
+                android:layout_height="@dimen/column_height" />
+
+            <com.fengsui.flights.view.ColumnView
+                android:layout_width="@dimen/column_width"
+                android:layout_height="@dimen/column_height" />
+
+            <com.fengsui.flights.view.ColumnView
+                android:layout_width="@dimen/column_width"
+                android:layout_height="@dimen/column_height" />
+
+            <com.fengsui.flights.view.ColumnView
+                android:layout_width="@dimen/column_width"
+                android:layout_height="@dimen/column_height" />
+
+            <com.fengsui.flights.view.ColumnView
+                android:layout_width="@dimen/column_width"
+                android:layout_height="@dimen/column_height" />
+
+            <com.fengsui.flights.view.ColumnView
+                android:layout_width="@dimen/column_width"
+                android:layout_height="@dimen/column_height" />
+
+            <com.fengsui.flights.view.ColumnView
+                android:layout_width="@dimen/column_width"
+                android:layout_height="@dimen/column_height" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.fengsui.flights.view.ColumnView
+                android:layout_width="@dimen/column_width"
+                android:layout_height="@dimen/column_height" />
+
+            <com.fengsui.flights.view.ColumnView
+                android:layout_width="@dimen/column_width"
+                android:layout_height="@dimen/column_height" />
+
+            <com.fengsui.flights.view.ColumnView
+                android:layout_width="@dimen/column_width"
+                android:layout_height="@dimen/column_height" />
+
+            <com.fengsui.flights.view.ColumnView
+                android:layout_width="@dimen/column_width"
+                android:layout_height="@dimen/column_height" />
+
+            <com.fengsui.flights.view.ColumnView
+                android:layout_width="@dimen/column_width"
+                android:layout_height="@dimen/column_height" />
+
+            <com.fengsui.flights.view.ColumnView
+                android:layout_width="@dimen/column_width"
+                android:layout_height="@dimen/column_height" />
+
+            <com.fengsui.flights.view.ColumnView
+                android:layout_width="@dimen/column_width"
+                android:layout_height="@dimen/column_height" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.fengsui.flights.view.ColumnView
+                android:layout_width="@dimen/column_width"
+                android:layout_height="@dimen/column_height" />
+
+            <com.fengsui.flights.view.ColumnView
+                android:layout_width="@dimen/column_width"
+                android:layout_height="@dimen/column_height" />
+
+            <com.fengsui.flights.view.ColumnView
+                android:layout_width="@dimen/column_width"
+                android:layout_height="@dimen/column_height" />
+
+            <com.fengsui.flights.view.ColumnView
+                android:layout_width="@dimen/column_width"
+                android:layout_height="@dimen/column_height" />
+
+            <com.fengsui.flights.view.ColumnView
+                android:layout_width="@dimen/column_width"
+                android:layout_height="@dimen/column_height" />
+
+            <com.fengsui.flights.view.ColumnView
+                android:layout_width="@dimen/column_width"
+                android:layout_height="@dimen/column_height" />
+
+            <com.fengsui.flights.view.ColumnView
+                android:layout_width="@dimen/column_width"
+                android:layout_height="@dimen/column_height" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

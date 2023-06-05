@@ -1,40 +1,68 @@
 package com.fengsui.flights;
 
+import android.app.DatePickerDialog;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.DatePicker;
+import android.widget.EditText;
 import android.widget.Spinner;
-
 import androidx.fragment.app.FragmentActivity;
+import com.fengsui.flights.fragment.FlightsFragment;
+import com.fengsui.flights.utils.HomeWatcher;
+import com.fengsui.flights.utils.Tools;
 
-import com.fengsui.Utils.TDXapi;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Locale;
 
 /*
  * Main Activity class that loads {@link MainFragment}.
  */
 public class MainActivity extends FragmentActivity {
-    private Spinner airportSpinner;
-    private Button accessToken;
-    private TDXapi tdxApi;
+    protected HomeWatcher homeWatcher;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        Tools.setLocale(this, Locale.TAIWAN);
+        getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
         setContentView(R.layout.activity_main);
-        airportSpinner = (Spinner) findViewById(R.id.airport_spinner);
-        // Create an ArrayAdapter using the string array and a default spinner layout
-        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
-                R.array.airport_array_tw, android.R.layout.simple_spinner_item);
-        // Specify the layout to use when the list of choices appears
-        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        // Apply the adapter to the spinner
-        airportSpinner.setAdapter(adapter);
-        accessToken.setOnClickListener(new View.OnClickListener() {
+        HomeWatcher homeWatcher = new HomeWatcher(this);
+        homeWatcher.setOnHomePressedListener(new HomeWatcher.OnHomePressedListener() {
             @Override
-            public void onClick(View view) {
-                tdxApi;
+            public void onHomePressed() {
+                finish();
+            }
+
+            @Override
+            public void onHomeLongPressed() {
+
             }
         });
+        homeWatcher.startWatch();
+        if(savedInstanceState == null){
+            getSupportFragmentManager().beginTransaction().replace(R.id.main_fragment, new FlightsFragment(), "Home").commitNow();
+        }
+    }
+
+    @Override
+    public void finish() {
+        if(homeWatcher != null){
+            homeWatcher.stopWatch();
+        }
+        super.finish();
+    }
+
+    @Override
+    public void onBackPressed() {
+        if(getFragmentManager().findFragmentByTag("Home") == null){
+            super.onBackPressed();
+        }else {
+            finish();
+        }
     }
 }

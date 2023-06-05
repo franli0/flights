@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string-array name="airport_array_tw">
-        <item>臺灣桃園國際機場</item>
-        <item>臺北松山國際機場</item>
-        <item>臺中國際機場</item>
-        <item>高雄小港國際機場</item>
-    </string-array>
-</resources>

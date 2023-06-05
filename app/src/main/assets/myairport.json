@@ -1,0 +1,38 @@
+[
+  {
+    "AirportID": "TPE",
+    "AirportName": {
+      "Zh_tw": "臺北桃園國際機場",
+      "En": "Taiwan Taoyuan International Airport"
+    },
+    "AirportIATA": "TPE",
+    "AirportICAO": "RCTP"
+  },
+  {
+    "AirportID": "TSA",
+    "AirportName": {
+      "Zh_tw": "臺北松山國際機場",
+      "En": "Taipei Songshan Airport"
+    },
+    "AirportIATA": "TSA",
+    "AirportICAO": "RCSS"
+  },
+  {
+    "AirportID": "RMQ",
+    "AirportName": {
+      "Zh_tw": "臺中國際機場",
+      "En": "Taichung International Airport"
+    },
+    "AirportIATA": "RMQ",
+    "AirportICAO": "RCMQ"
+  },
+  {
+  "AirportID": "KHH",
+  "AirportName": {
+    "Zh_tw": "高雄國際航空站",
+    "En": "Kaohsiung International Airport"
+  },
+  "AirportIATA": "KHH",
+  "AirportICAO": "RCKH"
+  }
+]

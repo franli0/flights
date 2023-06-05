@@ -1,0 +1,16 @@
+[
+  {
+    "ADID": "Arrive",
+    "ADName": {
+      "Zh_tw": "抵達",
+      "En": "Arrival"
+    }
+  },
+  {
+    "ADID": "Depart",
+    "ADName": {
+      "Zh_tw": "出發",
+      "En": "Departure"
+    }
+  }
+]

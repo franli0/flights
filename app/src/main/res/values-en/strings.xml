@@ -6,4 +6,23 @@
     <string name="taoyuan">Taiwan Taoyuan International Airport</string>
     <string name="songshan">Taipei Songshan Airport</string>
     <string name="kaohsiung">Kaohsiung International Airport</string>
+    <string name="search">Search</string>
+    <string name="date">Date</string>
+    <string name="fights_info">Flights Information</string>
+    <string name="monday">Mon</string>
+    <string name="tuesday">Tue</string>
+    <string name="wednesday">Wed</string>
+    <string name="thursday">Thu</string>
+    <string name="friday">Fri</string>
+    <string name="saturday">Sat</string>
+    <string name="sunday">Sun</string>
+    <string name="ad">Arrive / Depart</string>
+    <string name="flight_id">Flight ID</string>
+    <string name="scheduled_time">Scheduled Time</string>
+    <string name="estimated_time">Estimated Time</string>
+    <string name="airline_company">Airline Company</string>
+    <string name="from">From</string>
+    <string name="gate">Gate</string>
+    <string name="flight_status">Flight Status</string>
+    <string name="to">To</string>
 </resources>

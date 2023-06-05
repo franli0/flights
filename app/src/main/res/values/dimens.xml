@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="column_height">
+        40dp
+    </dimen>
+    <dimen name="column_width">
+        44dp
+    </dimen>
+    <dimen name="font_size">
+        14sp
+    </dimen>
+    <dimen name="title_font_size">
+        22sp
+    </dimen>
+</resources>
